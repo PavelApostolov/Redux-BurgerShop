@@ -45,7 +45,7 @@ class ContactData extends Component {
                     placeholder: 'ZIP Code'
                 },
                 value: '',
-                valueType: 'zip code (only numbers)',
+                errorMessage: 'Your zip code must be between 2 and 5 digits',
                 validation: {
                     required: true,
                     minLength: 2,
@@ -75,7 +75,7 @@ class ContactData extends Component {
                     placeholder: 'Your E-Mail'
                 },
                 value: '',
-                valueType: 'email (eg. test@test.com)',
+                errorMessage: 'Please enter a valid email (eg. test1@test.com)',
                 validation: {
                     required: true,
                     isEmail: true
@@ -184,7 +184,7 @@ class ContactData extends Component {
                         elementType={formElement.config.elementType}
                         elementConfig={formElement.config.elementConfig}
                         value={formElement.config.value}
-                        valueType={formElement.config.valueType}
+                        errorMessage={formElement.config.errorMessage}
                         invalid={!formElement.config.valid}
                         shouldValidate={formElement.config.validation}
                         touched={formElement.config.touched}

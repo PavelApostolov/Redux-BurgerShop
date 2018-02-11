@@ -18,6 +18,7 @@ class Auth extends Component {
                     placeholder: 'Mail Address'
                 },
                 value: '',
+                valueType: 'email (eg. test@test.com)',
                 validation: {
                     required: true,
                     isEmail: true
@@ -32,6 +33,7 @@ class Auth extends Component {
                     placeholder: 'Password'
                 },
                 value: '',
+                valueType: 'password (at least 6 characters)',
                 validation: {
                     required: true,
                     minLength: 6
@@ -119,6 +121,7 @@ class Auth extends Component {
                 elementType={formElement.config.elementType}
                 elementConfig={formElement.config.elementConfig}
                 value={formElement.config.value}
+                valueType={formElement.config.valueType}
                 invalid={!formElement.config.valid}
                 shouldValidate={formElement.config.validation}
                 touched={formElement.config.touched}

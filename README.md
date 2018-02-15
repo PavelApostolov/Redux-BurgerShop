@@ -11,7 +11,7 @@ Added features: authentication(register, login, logout), guarding routes and laz
 
 The application is deployed on https://react-burger-shop.firebaseapp.com/
 
-# You have to authenticate to gain access to the full functionality of the application:
+### You have to authenticate to gain access to the full functionality of the application:
 -> Click Authenticate 
 -> Sign up with email (it should contain @ even if it does not exist (e.g. testmail@test.com)) and password (with at least 6 characters)
 -> Sign in

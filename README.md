@@ -1,8 +1,10 @@
-[React-BurgerShop](https://github.com/PavelApostolov/ReactJS-BurgerShop) app refactored with Redux for ingredients and orders state. It lets you design a tasty burger with ingredients and their quantity of your choice. 
+[React-BurgerShop](https://github.com/PavelApostolov/ReactJS-BurgerShop) app refactored with Redux more convenient access to the state by the different components. It lets you design a tasty burger with ingredients and their quantity of your choice. 
 
 # How does it work
 
-After building your burger (you can see the burger designed with CSS) a modal with the order summary pops. After confirmation you are redirected to a contacts page where you fill a form for delivery and finish your order. It is stored in Firebase database.
+You can add and remove different ingredients and you can see the immediate result of your creation as a burger designed with CSS. The price is also updated with every click. You have to be authenticated to make an order.
+
+After building your burger a modal with the order summary pops. After confirmation you are redirected to a contacts page where you fill a form for delivery and finish your order. It is stored in Firebase database.
 
 Added features after refactoring with Redux: authentication(register, login, logout), guarding routes, asynchronous requests and lazy loading, unit tests. 
 Used: Firebase, ReactRouter 4, Axios, Redux-Thunk 

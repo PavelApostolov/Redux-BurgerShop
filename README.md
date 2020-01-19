@@ -1,3 +1,5 @@
+The code is based on Maximilian Schwarzmüller course in Udemy with some changes and code styling improvements.
+
 [React-BurgerShop](https://github.com/PavelApostolov/ReactJS-BurgerShop) app refactored with Redux more convenient access to the state by the different components. It lets you design a tasty burger with ingredients and their quantity of your choice. 
 
 # How does it work
